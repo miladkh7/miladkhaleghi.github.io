@@ -1,0 +1,116 @@
+.top-menu{
+    color:$text-gray;
+    padding-top: 10px;
+
+    background-color:$background-gray;
+    &-items{
+       
+        padding-right: 0px;
+        padding-left: 0px;
+        &-button{
+            padding-left: $top-menu-padding;
+        }
+
+    }
+    &-content{
+        text-align: right;
+         padding-right:$top-menu-padding;
+         padding-left: 0px;
+        font-family: "iran-sans";
+        font-size: 30px;
+        color:$text-gray;
+    }
+
+}
+.main-home{
+
+    background-color:$background-gray;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    &-profile-section{
+        // height: 100px;
+        background-color: white;
+        align-content: center;
+        align-items: center;
+        border-radius: 15px;
+        display: block;
+        align-content: center;
+        text-align: center;
+        padding-top: 25px;
+        box-sizing: border-box;
+        width: 100px;
+        &-image{
+           
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+        }
+        &-name{
+            padding-top: 10px;
+            font-family: "iran-sans";
+            font-size: 18px;
+        }
+        &-level{
+            font-family: "iran-sans";
+            color: $text-green;
+
+
+        }
+    }
+
+    &-active-matchs{
+        padding-left: 0px ;
+        padding-right: 0px ;
+        border-radius:10px;
+    }
+}
+.main-menu{
+    position: fixed;
+    bottom: 0;
+    justify-items: center;
+    justify-items: center;
+    background-color: #ffffff;
+    .main-menu-button{
+        text-align: center;
+    }
+    
+}
+
+// page togeher
+.match-requests{
+    @include page-cards;
+}
+
+// discover page
+.open-matchs{
+    @include page-cards;
+}
+
+
+// new match page
+.new-match{
+    @include page-cards;
+    background-color: white;
+         align-content: center;
+        align-items: center;
+        border-radius: 15px;
+        display: block;
+        align-content: center;
+        text-align: center;
+        padding-top: 5px;
+
+        &-shematic{
+            
+        }
+       
+        
+}
+// total propary
+body{
+    // margin:  25px;
+    // padding-right: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: $background-gray;
+}

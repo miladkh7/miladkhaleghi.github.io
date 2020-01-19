@@ -1,0 +1,39 @@
+// colors
+$text-gray:#707070;
+$background-gray:#e6e6e6;
+$text-green:#A7C352;
+
+// paddings
+$top-menu-padding:10px;
+
+@font-face{
+    font-family: "iran-sans";
+    src: url("../statics/fonts/IRAN\ Sans\ Bold\ \(mmrostami.blog.ir\).ttf");
+}
+
+
+@mixin page-cards {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+@mixin teammate {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    padding: 1px;
+}
+
+*{
+    // margin: 0px;
+    // padding: 0px;
+    font-family: "iran-sans";
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.container-fulid{
+    padding:0px !important;
+}
