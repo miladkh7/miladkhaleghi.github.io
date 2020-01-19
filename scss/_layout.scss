@@ -106,6 +106,30 @@
        
         
 }
+.start-page{
+    
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    &-login-action{
+        display:flex;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        position: fixed;
+        bottom: 5%;
+        button{
+            
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+    
+    
+    }
+}
+
+//start page
 // total propary
 body{
     // margin:  25px;
